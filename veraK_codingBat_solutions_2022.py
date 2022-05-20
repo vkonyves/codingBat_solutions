@@ -949,7 +949,12 @@ def squirrel_play(temp, is_summer):
     return ((temp >= 60) and (temp <= 100))
   else:
     return False
+
+# or
        
+def squirrel_play(temp, is_summer):
+    return ( (is_summer and temp >= 60 and temp <= 100) or (temp >= 60 and temp<= 90) )
+  
     
 #####################################################    
 
