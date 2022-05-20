@@ -823,7 +823,7 @@ Given an array of ints, return the sum of the first 2 elements in the array. If 
 
 #####
 def sum2(nums):
-  if len(nums) < 0:
+  if len(nums) < 2:
     return sum(nums)
   else:  
     return sum(nums[0:2])
