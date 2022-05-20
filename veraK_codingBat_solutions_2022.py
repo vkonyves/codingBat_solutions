@@ -1053,6 +1053,11 @@ The number 6 is a truly great number. Given two int values, a and b, return True
 
 #####
 def love6(a, b):
+   return ( (a == 6) or (b == 6) or (a+b == 6) or (abs(a-b) == 6) )
+
+# or
+
+def love6(a, b):
   return ((a==6) or (b==6) or ((a+b)==6) or ((a-b)==6) or ((b-a)==6))
 
 
