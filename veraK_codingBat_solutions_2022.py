@@ -603,7 +603,7 @@ Given a string of even length, return the first half. So the string "WooHoo" yie
 
 #####
 def first_half(str):
-  half_len = len(str)/2
+  half_len = int(len(str)/2)
   return str[0:half_len]
 
 
