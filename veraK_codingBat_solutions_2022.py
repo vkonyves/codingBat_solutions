@@ -1309,7 +1309,7 @@ def centered_average(nums):
   nums_min = min(nums) 
   nums_max = max(nums) 
   total = sum(nums) 
-  return (total - nums_min - nums_max) / (nums_len-2)
+  return (total - nums_min - nums_max) // (nums_len-2)
 
 
 #####################################################
